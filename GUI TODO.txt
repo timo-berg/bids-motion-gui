@@ -1,0 +1,5 @@
+- subject info edit and import
+- field check
+- field info
+- export to BIDS button
+- can default values be displayed with grey text?
