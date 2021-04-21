@@ -26,11 +26,11 @@ bemobil_config.bids_eegkeyword  = 'BrainVision';
 bemobil_config.bids_tasklabel  = 'triangleWalk';
 
 % Session and rigidbody info 
-bemobil_config.rigidbody_streams  = {'Torso','RightFoot','Sphere','LeftFoot','VRPlayer','DesktopPlayer','Hand'};
-bemobil_config.filenames  = {'Desktop','VR'};
-bemobil_config.bids_motion_positionunits  = {'m','vm'};
-bemobil_config.bids_motion_orientationunits  = {'rad','rad'};
-bemobil_config.bids_rbsessions  = [1, 1, 1, 1, 1, 0, 1;0, 0, 1, 0, 0, 1, 0];
+bemobil_config.rigidbody_streams  = {};
+bemobil_config.filenames  = {'SessionName'};
+bemobil_config.bids_motion_positionunits  = {''};
+bemobil_config.bids_motion_orientationunits  = {''};
+bemobil_config.bids_rbsessions  = [];
 
 % EEG recording system 
 eegInfo.eeg.PowerLineFequency  = '2';
